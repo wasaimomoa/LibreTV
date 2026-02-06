@@ -121,7 +121,7 @@ const API_SITES = {
     },
     
     //ARCHIVE https://telegra.ph/APIs-08-12
-    // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
+    // 下面是一些成人内容的API源，使用本项目浏览黄色内容违背项目初衷
     
     ckzy: {
          api: 'https://www.ckzy1.com',
@@ -272,4 +272,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = Ture;
+const HIDE_BUILTIN_ADULT_APIS = false;
