@@ -121,48 +121,40 @@ const API_SITES = {
     },
     
     //ARCHIVE https://telegra.ph/APIs-08-12
-    // 下面是一些成人内容的API源，使用本项目浏览黄色内容违背项目初衷
+    // 下面是一些成人内容的API源，默认显示，使用本项目浏览黄色内容违背项目初衷。
     
     ckzy: {
          api: 'https://www.ckzy1.com',
-         name: 'CK资源',
-         adult: true
+         name: '*CK资源',
      },
      jkun: {
          api: 'https://jkunzyapi.com',
-         name: 'jkun资源',
-         adult: true
+         name: '*jkun资源',
      },
      bwzy: {
          api: 'https://api.bwzym3u8.com',
-         name: '百万资源',
-         adult: true
+         name: '*百万资源',
      },
      souav: {
          api: 'https://api.souavzy.vip',
-         name: 'souav资源',
-         adult: true
+         name: '*souav资源',
      },
      r155: {
          api: 'https://155api.com',
-         name: '155资源',
-         adult: true
+         name: '*155资源',
      },
      lsb: {
          api: 'https://apilsbzy1.com',
-         name: 'lsb资源',
-         adult: true
+         name: '*lsb资源',
      },
      huangcang: {
          api: 'https://hsckzy.vip',
-         name: '黄色仓库',
-         adult: true,
+         name: '*黄色仓库',
          detail: 'https://hsckzy.vip'
      },
      yutu: {
          api: 'https://yutuzy10.com',
-         name: '玉兔资源',
-         adult: true
+         name: '*玉兔资源',
      },
 
     // 下面是资源失效率高的API源，不建议使用
@@ -272,4 +264,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = Ture;
