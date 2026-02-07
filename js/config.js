@@ -124,9 +124,8 @@ const API_SITES = {
     // 下面是一些成人内容的API源，默认显示，使用本项目浏览黄色内容违背项目初衷。
     
     ckzy: {
-         api: 'https://www.ckzy1.com',
+         api: 'https://ckzy.me/api.php/provide/vod/',
          name: '*CK资源',
-         adult: false
      },
      jkun: {
          api: 'https://jkunzyapi.com',
